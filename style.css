@@ -1,0 +1,805 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+@font-face{
+    src:url(font/BRITANIC.ttf);
+    font-family:brit;
+}
+
+@font-face {
+    src:url(fonts/birds.ttf);
+    font-family:birds;
+}
+
+.body-home {
+    background-image:url(images/log-in-page-prt.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-menu {
+    background-image: url(images/menu-bg-port.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.body-starter-menu {
+    background-image: url(images/starters/starters-menu-bg-port.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.body-meals-menu {
+    background-image: url(images/meals-menu-item-bg-port.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-main-meals-menu{
+    background-image: url(images/main-meals/main-meal-menu-bg-port.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.body-drinks-menu {
+    background-image: url(images/drinks/drinks-menu-bg-port.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.body-dessert-menu {
+    background-image: url(images/desserts/dessert-menu-bg-port.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*==================== HOME PAGE ====================*/
+
+
+.wel-page {
+    
+    background: rgba(26, 26, 26,.9);
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    padding: 5px;
+    
+    margin-top: 10px;
+}
+
+#home-logo-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    
+    padding: 25px 10px 10px 10px;
+
+}
+
+
+.wel-page h1 {
+    
+    text-align: center;
+    font-size: 30px;
+    font-family:brit;
+    
+    color:  #ff0000;
+    
+}
+
+.wel-page h2 {
+    
+    font-family: brit;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+    color: #e60000;
+    
+    
+    
+}
+
+
+.wel-page p {
+    
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-bottom: 10px;
+}
+
+
+.menu-link {
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+    margin: auto;
+    
+    background-color:#33ff00;
+    width: 100px;
+    border-style: groove;
+    border-radius: 20px;
+    
+    padding: 2px;
+    
+    display: block;
+    
+    margin-bottom: 20px;
+}
+
+
+.menu-link a {
+    
+    color: black;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-link a:hover {
+    
+    color:white;
+    
+    text-decoration: none;
+    text-align: center;
+}
+
+/*==================== THANK YOU PAGE ====================*/
+
+.thank-you {
+    
+    background: rgba(26, 26, 26,.9);
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    padding: 5px;
+    
+    margin-top: 10px;
+    
+}
+
+.thank-you h1 {
+    
+    text-align: center;
+    font-size: 35px;
+    font-family:brit;
+    
+    color:  #ff0000;
+    
+}
+
+.thank-you p {
+    
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: brit;
+}
+
+.thank-menu-link {
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+    font-family: brit;
+    
+    margin: auto;
+    margin-bottom: 20px;
+    
+    background-color:#990000;
+    width: 200px;
+    border-style: groove;
+    border-radius: 20px;
+    
+    padding: 2px;
+            
+    margin-bottom: 20px;
+    
+}
+
+.thank-menu-link a {
+    
+    color: white;
+    
+    text-decoration: none;
+    text-align: center;
+        
+}
+
+.thank-menu-link a:hover {
+    
+    color: #4da6ff;
+}
+
+
+
+/*======================================== MENU PAGE ========================================*/
+
+/*==================== HEADER ====================*/
+
+.header {
+    
+    background-image: url(images/HEADER.jpg);
+    
+    
+    width: 100%;
+    height: 100px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+    
+}
+
+.header i {
+    
+    float: left;
+    color: white;
+    font-size: 35px;
+    color: red;
+    
+    padding: 20px 0px 0px 18px;
+    
+} 
+
+.header i:hover {
+    color: forestgreen;
+}
+
+.header img {
+    width: 200px;
+    padding-right: 45px;
+    
+    
+    
+}
+
+
+
+/*==================== MENU LIST ====================*/
+
+#menu {
+    
+    padding-top: 75px;
+}
+
+
+#menu h1 {
+    
+    text-align: center;
+    font-family: birds;
+    font-size: 45px;
+    
+    color: #800000;
+    text-shadow: 1px 1.5px white;
+}
+
+.home-menu-item {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 25px;
+    font-family: brit;
+    font-weight: bold;
+    
+    text-align: center;
+    border: 5px solid #800000;
+    border-radius: 40px;
+    
+    
+    
+    
+    color: white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 80%;
+    
+    box-shadow: 2px 3px white;
+}
+
+
+.menu-list a:hover {
+    color: #0000e6;
+    background: rgba(204, 0, 82,.2);
+}
+
+/*======================================== MEALS MENU ========================================*/
+
+/*========== STARTER MEALS  MENU ==========*/
+
+#meals {
+    padding-top: 100px;
+}
+
+#meals h1 {
+    
+    text-align: center;
+    font-family: birds;
+    font-size: 45px;
+    
+    color: #a6a6a6;
+    
+    
+}
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    
+    background: rgba(26, 26, 26,.7);
+    
+    border: 5px solid #800000;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.meals-list-item h2 {
+    
+    font-family: birds;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.meals-list-item i {
+    
+    float:right;
+    color: #e60000;
+    font-size: 30px;
+    
+    padding: 18px 10px 18px 0px;
+}
+
+.meals-list-item i:hover {
+    color: white;
+}
+
+
+.meals-list-item p {
+    font-size: 17px;
+    font-style: italic;
+    color: #f2f2f2;
+    
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+
+/*========== STARTERS-MEALS ==========*/
+
+#meals-menu{
+    padding-top: 110px;
+    
+    color: white;
+}
+
+
+.meals-menu-details img {
+    width: 50%;
+    
+    margin: auto;
+    display: block;
+    
+    border-style: groove;
+    border-radius: 40px;
+
+}
+
+.meals-menu-details h1 {
+    
+    text-align: center;
+    font-family: birds;
+    font-size: 35px;
+    
+    color: #990000;
+    text-decoration: underline white;
+}
+
+.meals-menu-details h2 {
+    
+    text-align: center;
+    font-family: brit;
+   
+}
+
+.meals-description h2 {
+    text-align: left;
+    font-family: brit;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+    text-decoration: underline;
+        
+}
+
+.meals-menu-details-info {
+    
+    margin-left: 30px;
+    margin-right: 30px;
+  
+}
+
+.meals-menu-details-info p{
+    
+    font-family: brit;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+
+.meals-description p{
+    text-align: left;
+    font-size: 20px;
+    font-family: brit;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+/*========== MEAL PREPARATIONS PREFERANCES ==========*/
+
+#meal-prep {
+    
+    background: rgba(26, 26, 26,.7);
+    margin: 0;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+
+
+#meal-prep h3 {
+    
+    text-align: center;
+    margin: 0;
+    margin-left: 25px;
+    
+    font-family: birds;
+    font-size: 30px;
+    
+    color: #990000;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    padding-top: 10px;
+    
+    text-decoration: underline;
+    
+}
+
+#meal-prep p {
+    
+    text-align: center;
+    margin: 0;
+    margin-left: 22px;
+    
+    font-size: 25px;
+    font-family: brit;
+    
+    margin-bottom: 20px;
+    
+}
+
+form {
+    
+    text-align: center;
+    
+    font-size: 15px;
+    font-weight: bold;
+    
+    font-style: italic;
+    
+}
+
+
+#qty {
+    
+    width: 35px;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 80%;
+}
+
+/*========== ORDER BUTTON ==========*/
+
+#complete {
+    
+    font-family: birds;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #00ff00;
+     
+    margin-bottom: 20px;
+    
+}
+
+
+/*========================  DRINKS-MENU ========================*/
+
+/*===============  DRINKS PREPARATIONS ===============*/
+
+
+
+.cup {
+    
+    padding: 5px;
+    font-size: 25px;
+    color: #b30000;
+    font-family: brit;
+}
+
+#drink-prep {
+    
+    background: rgba(26, 26, 26,.7);
+    margin: 0;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+
+
+#drink-prep h3 {
+    
+    text-align: center;
+    margin: 0;
+    margin-left: 25px;
+    
+    font-family: birds;
+    font-size: 30px;
+    
+    color: #990000;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    padding-top: 10px;
+    
+    text-decoration: underline;
+    
+}
+
+#drink-prep p {
+    
+    text-align: center;
+    margin: 0;
+    margin-left: 22px;
+    
+    font-size: 20px;
+    font-family: brit;
+    
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+form {
+    
+    text-align: center;
+    
+    font-size: 15px;
+    font-weight: bold;
+    
+    font-style: italic;
+    
+}
+
+
+#qty {
+    
+    width: 35px;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 80%;
+}
+
+
+/*=================== RESPONSIVE LAYOUT ===================*/
+
+@media only screen and (min-width:600px) {
+    
+    #menu {
+        width: 80%;
+        margin: auto;
+        
+    }
+    
+    #home {
+        width: 80%;
+        margin: auto;
+        
+    }
+    
+    #meals {
+        
+        width: 80%;
+        margin: auto;
+        
+    }
+    
+    #meals-menu {
+         width: 80%;
+        margin: auto;
+    }
+     
+}
+
+@media only screen and (min-width:1000px) {
+    
+        #menu {
+        width: 60%;
+        margin: auto;
+        
+    }
+    
+    #home {
+        width: 60%;
+        margin: auto;
+        
+    }
+    
+    #meals {
+        
+        width: 60%;
+        margin: auto;
+        
+    }
+    
+    #meals-menu {
+         width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width:1500px) {
+    
+            #menu {
+        width: 40%;
+        margin: auto;
+        
+    }
+    
+    #home {
+        width: 40%;
+        margin: auto;
+        
+    }
+    
+    #meals {
+        
+        width: 40%;
+        margin: auto;
+        
+    }
+    
+    #meals-menu {
+         width: 40%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width:720px) {
+    
+    .body-home {
+        background-image:url(images/log-in-page-ls.jpg);
+        
+    }
+    
+    .body-menu {
+    background-image: url(images/menu-bg-land.jpg);
+        
+    }
+    
+    .body-starter-menu {
+    background-image: url(images/starters/starters-menu-bg-land.jpg);
+    }
+        
+        
+.body-meals-menu {
+    background-image: url(images/meals-menu-item-bg-land.jpg);
+    }
+    
+    
+.body-main-meals-menu{
+    background-image: url(images/main-meals/main-meal-menu-bg-land.jpg);
+    }
+    
+    
+.body-drinks-menu {
+    background-image: url(images/drinks/drinks-menu-bg-land.jpg);
+    }
+    
+    
+.body-dessert-menu {
+    background-image: url(images/desserts/dessert-menu-bg-land.jpg);
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
